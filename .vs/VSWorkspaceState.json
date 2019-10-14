@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WebAPIBack"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\WebAPIBack\\appsettings.Development.json",
   "PreviewInSolutionExplorer": false
 }
