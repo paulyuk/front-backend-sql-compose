@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFront", "WebFront\WebFront.csproj", "{8EBD2B17-2EE6-41AB-AC14-7AF62ECBF4F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIBack", "WebAPIBack\WebAPIBack.csproj", "{11B97646-8A1F-45BC-A558-95AFC58393D1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{88FCD4BF-CCC7-4D3D-A7C5-672382AFB209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EBD2B17-2EE6-41AB-AC14-7AF62ECBF4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBD2B17-2EE6-41AB-AC14-7AF62ECBF4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBD2B17-2EE6-41AB-AC14-7AF62ECBF4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBD2B17-2EE6-41AB-AC14-7AF62ECBF4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B97646-8A1F-45BC-A558-95AFC58393D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B97646-8A1F-45BC-A558-95AFC58393D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B97646-8A1F-45BC-A558-95AFC58393D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B97646-8A1F-45BC-A558-95AFC58393D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FCD4BF-CCC7-4D3D-A7C5-672382AFB209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FCD4BF-CCC7-4D3D-A7C5-672382AFB209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FCD4BF-CCC7-4D3D-A7C5-672382AFB209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FCD4BF-CCC7-4D3D-A7C5-672382AFB209}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {280FF504-989B-47D4-B202-47EAA0E725F3}
+	EndGlobalSection
+EndGlobal

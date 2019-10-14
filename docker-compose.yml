@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  webfront:
+    image: ${DOCKER_REGISTRY-}webfront
+    build:
+      context: .
+      dockerfile: WebFront/Dockerfile
+    depends_on:
+      - db
+
+  webapiback:
+    image: ${DOCKER_REGISTRY-}webapiback
+    build:
+      context: .
+      dockerfile: WebAPIBack/Dockerfile
+
+  db:
+    image: "microsoft/mssql-server-linux"
+    environment:
+      SA_PASSWORD: "ConferencePlanner1234$$"
+      ACCEPT_EULA: "Y"
